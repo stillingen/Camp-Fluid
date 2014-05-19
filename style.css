@@ -1590,3 +1590,30 @@ Media Queries
 	}
 
 }
+
+/*
+Media Queries to get Velocity page to be responsive 
+---------------------------------------------------------------------------------------------------- */
+.field-wrap .vp-noneditable {
+  padding: 0; }
+
+.section-wrap {
+  border: none;
+  margin: 20px 0 0px; }
+
+.item-wrap {
+  border: none;
+  margin: 0; }
+
+.item-area-wrap {
+  padding: 0 24px 0 0; }
+
+.field-wrap-slug-img {
+  margin-bottom: 3px; }
+
+@media only screen and (max-width: 767px) {
+  .item-area-wrap {
+    float: none;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0; }}
